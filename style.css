@@ -1,45 +1,169 @@
-/* Styling Only Related To ALL Pages */
-
-body {
-  padding-top: 30px;
-  margin-left: 0px;
-  margin-right: 0px;
+body,
+html {
+  height: 100%;
 }
-/* ⬆⬆⬆⬆ Nav Bar Styling 
-~~~~~ Taken From: 
-https://www.w3schools.com/css/css_navbar_horizontal.asp */
-ul.nav {
+
+
+#home {  background-image: url("https://cdn.glitch.global/d03d2377-54bd-4c0f-afd1-81effb05b730/DLNY-6211.jpg?v=1748533420180");
+
+}
+
+#back {
+  background-image: url("https://cdn.glitch.global/d03d2377-54bd-4c0f-afd1-81effb05b730/DLNY-6162.jpg?v=1744213238658");
+
+}
+
+#dlny {
+  /*   background-color: pink; */
+  background-image: url("https://cdn.glitch.global/d03d2377-54bd-4c0f-afd1-81effb05b730/DLNY-5418.jpg?v=1744300299797");
+}
+
+.parallax {
+  /* The image used */
+  /*   background-image: url("https://cdn.glitch.global/d03d2377-54bd-4c0f-afd1-81effb05b730/DLNY-6162.jpg?v=1744213238658"); */
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  /*   background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head {
   list-style-type: none;
   margin: 0;
+  margin-bottom: -150px;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
-  position: fixed;
-  top: 0;
+  background-color: transparent;
+}
+
+img {
+  border: 30px;
+  border-radius: 8px;
+}
+
+body {
+  background-image: url("https://cdn.glitch.global/d03d2377-54bd-4c0f-afd1-81effb05b730/DLNY-6162.jpg?v=1744213238658");
+  height: 110%;
   width: 100%;
-  z-index: 999;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-ul.nav li {
-  float: left;
+a {
+  font-size: 18px;
+  margin: 8px;
+  color:#AF9F99;
 }
 
-ul.nav li a {
+a:hover {
+  background-color: none;
+  color: rbg(169, 169, 169);
+}
+
+
+.head li a {
   display: block;
-  color: white;
+  color: #AF9F99;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  margin: -5px;
 }
 
-ul.nav li a:hover:not(.active) {
-  background-color: yellow;
+.head li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  float: left;
+  margin: -5px;
 }
 
-ul.nav .active {
-  background-color: red;
+li a:hover {
+/*   background-color: black; */
+  border-radius: 30px;
+  color: #5F3045;
+}
+
+#res {
+  color: #beb9b3;
+}
+
+.bio {
+  color: white;
+}
+
+.heading {
+  color: white !important;
+}
+
+#dance {
+  color: white;
+}
+#email {
+  color: white;
+}
+
+
+
+
+
+h3 {
+  color: #beb9b3;
+}
+
+#chanel {
+  background-color: none;
+  text-align: right;
+  margin-right: 0%;
+}
+
+
+#move {
+  background-color: none;
+  text-align: left;
+  margin-bottom: 50%;
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+}
+
+#picquo {
+  display: flex;
+  justify-content: space-between;
+}
+
+#size {
+  font-size: 40px;
+}
+
+.side {
+  display: flex;
+  justify-content: space-around;
+  margin: -15px;
+}
+
+.ins {
+  font-size: 25px;
 }
 
 h1 {
-  width: 100%;
+  font-family: "Gideon Roman", serif;
+  font-weight: 400;
+  font-size: 45px;
+  color: #AF9F99;
+}
+
+.side2 {
+  width: 50%;
+  /*   overflow: scroll; */
 }
